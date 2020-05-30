@@ -18,6 +18,7 @@ end
 end
 
 def take_a_nuber(katz_deli)
+  sentence = 
   if katz_deli.each do |name|
     
  end
