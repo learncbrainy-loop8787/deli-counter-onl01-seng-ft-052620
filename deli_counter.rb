@@ -1,3 +1,5 @@
+require "pry"
+
 def line(katz_deli)
 new_array = []
   if katz_deli == []
@@ -16,5 +18,5 @@ end
 end
 
 def take_a_nuber(katz_deli)
-  if 
+  binding.pry
 end
