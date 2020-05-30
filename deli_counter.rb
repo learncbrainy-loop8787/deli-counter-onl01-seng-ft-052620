@@ -1,6 +1,7 @@
 require "pry"
 
 def line(katz_deli)
+  
 new_array = []
   if katz_deli == []
     puts "The line is currently empty."
