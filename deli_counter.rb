@@ -3,6 +3,7 @@ require "pry"
 def line(katz_deli)
   
 new_array = []
+punch = []
   if katz_deli == []
     puts "The line is currently empty."
 else
@@ -20,9 +21,11 @@ end
 
 def take_a_nuber(katz_deli)
   count = 1
-  punch = 
+  punch = "There is nobody waiting to be served!"
   now_severving = 
-  if katz_deli.each do |name|
+  if katz_deli == []
+    
+    katz_deli.each do |name|
     Welcome, #{name}. You are number #{count} in line.
     ("#{name}. #{count}")
     count += 1 
