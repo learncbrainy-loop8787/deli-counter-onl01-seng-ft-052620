@@ -18,6 +18,8 @@ end
 end
 
 def take_a_nuber(katz_deli)
- 
+  if katz_deli.each do |name|
+    
+ end
 end
  binding.pry
