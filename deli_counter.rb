@@ -3,7 +3,7 @@
 def line(katz_deli)
   
 new_array = []
-#punch = []
+
   if katz_deli == []
     puts "The line is currently empty."
 else
@@ -28,7 +28,7 @@ end
   if katz_deli.empty?
     puts "There is nobody waiting to be served!"
   else 
-    puts "Currently serving #{deli.first}."
+    puts "Currently serving #{katz_deli.first}."
     deli.shift
 end
 end
