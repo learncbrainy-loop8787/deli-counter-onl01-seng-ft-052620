@@ -19,7 +19,7 @@ put += 1
 end 
 end
 
-def take_a_number(katz_deli)
+def take_a_number(katz_deli, name)
   
   count = 1
   punch = "There is nobody waiting to be served!"
