@@ -1,10 +1,8 @@
 
 
 def line(katz_deli)
-  
-new_array = []
-
-  if katz_deli == []
+  new_array = []
+ if katz_deli == []
     puts "The line is currently empty."
 else
   put = 1
@@ -29,6 +27,6 @@ end
     puts "There is nobody waiting to be served!"
   else 
     puts "Currently serving #{katz_deli.first}."
-    deli.shift
+    katz_deli.shift
 end
 end
