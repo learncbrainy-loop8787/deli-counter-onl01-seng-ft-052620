@@ -19,7 +19,7 @@ end
 
 def take_a_nuber(katz_deli)
   count = 1
-  now_severving = Welcome, #{name}. You are number #{count} in line.
+  now_severving = 
   if katz_deli.each do |name|
     
     ("#{name}. #{count}")
