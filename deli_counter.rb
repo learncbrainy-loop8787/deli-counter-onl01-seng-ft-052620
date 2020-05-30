@@ -24,7 +24,7 @@ def take_a_number(katz_deli)
   punch = "There is nobody waiting to be served!"
   now_severving = 
   if katz_deli == []
-    Welcome, #{name}. You are number #{count} in line.
+    puts Welcome, #{name}. You are number #{count} in line.
     katz_deli.each do |name|
     ("#{name}. #{count}")
     count += 1 
