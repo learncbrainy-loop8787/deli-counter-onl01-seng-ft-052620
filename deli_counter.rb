@@ -18,8 +18,11 @@ end
 end
 
 def take_a_nuber(katz_deli)
-  sentence = 
+  count = 1
+  now_severving = Welcome, #{name}. You are number #{count} in line.
   if katz_deli.each do |name|
+    ("")
+    count += 1 
     
  end
 end
