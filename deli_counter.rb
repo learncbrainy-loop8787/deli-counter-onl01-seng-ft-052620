@@ -20,6 +20,7 @@ end
 end
 
 def take_a_number(katz_deli)
+  
   count = 1
   punch = "There is nobody waiting to be served!"
   now_severving = 
