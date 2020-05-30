@@ -1,7 +1,7 @@
 require "pry"
 
 def line(katz_deli)
-  
+  "There is nobody waiting to be served!"
 new_array = []
   if katz_deli == []
     puts "The line is currently empty."
