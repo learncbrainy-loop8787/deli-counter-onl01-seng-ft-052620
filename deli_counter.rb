@@ -21,10 +21,10 @@ def take_a_nuber(katz_deli)
   count = 1
   now_severving = 
   if katz_deli.each do |name|
-    
+    Welcome, #{name}. You are number #{count} in line.
     ("#{name}. #{count}")
     count += 1 
-    
+  end
  end
 end
  binding.pry
